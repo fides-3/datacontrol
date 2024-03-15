@@ -1,7 +1,7 @@
 
 import 'dart:io';
 void main(){
-  print ("enter number");
+  print ("enter number:");
   int num=int.parse(stdin.readLineSync()!);
   if (num>10){
     print (" $num is greater than 10");
